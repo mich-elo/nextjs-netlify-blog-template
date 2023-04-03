@@ -22,6 +22,13 @@ export default function Index() {
             </h1>
             <span className="handle">@nextjs-netlify-blog</span>
             <h2>A blog template with Next.js and Netlify.</h2>
+
+            <div data-netlify-identity-menu></div>
+
+            {/* Add a simpler button: */}
+            {/* Simple button that will open the modal. */}
+            
+            <div data-netlify-identity-button>Login with Netlify Identity</div>
             <SocialList />
           </div>
         </div>
